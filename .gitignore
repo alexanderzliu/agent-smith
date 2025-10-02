@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Config files with sensitive data
+dev/config/local_config.py
+*.local.yaml
+*.local.yml
+
+# Test outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databricks
+.databricks/
+
+# Sensitive configuration files
+agentsmith/config/models.yaml
+ytp/config/models.yaml
+**/config/models.yaml
+
+# Amazon scraper folder
+amazon_scraping/
+
+# CSV results and logs
+*.csv
+*.log
+
+# Holiday tagging artifacts
+holiday-tag/mlruns/
+holiday-tag/results/
+holiday-tag/*.log
+holiday-tag/*.csv
+holiday-tag/__pycache__/
+holiday-tag/*/__pycache__/
+holiday-tag/*/*/__pycache__/
+holiday-tag-v2/
+
+# Author tagging temp files
+examples/author-tagging/data-assets/raw_input/*.csv
+examples/author-tagging/final_results_*.csv
+examples/author-tagging/processing_summary_*.csv
+examples/author-tagging/author_processing_*.log
